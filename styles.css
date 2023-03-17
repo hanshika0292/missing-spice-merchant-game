@@ -3,15 +3,24 @@ body {
     text-align: center;
     background-color: #ffebcd;
     color: #4b0082;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    width: 90%;
     padding: 20px;
     background-color: #fff5ee;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 3px solid #cd853f;
+    overflow: auto;
+    max-height: 90%;
 }
 
 h1 {
