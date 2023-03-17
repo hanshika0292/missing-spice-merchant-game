@@ -30,7 +30,6 @@ function mystery_1() {
     const startButton = document.querySelector("button");
     intro.classList.add("hidden");
     startButton.classList.add("hidden");
-
     const mystery1 = document.getElementById("mystery-1");
     mystery1.classList.remove("hidden");
 }
