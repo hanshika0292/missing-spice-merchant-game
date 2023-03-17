@@ -9,45 +9,103 @@
 <body>
     <div class="container">
         <h1>The Mystery of the Missing Spice Merchant</h1>
-        <p>Congratulations, detective! ...</p>
+        <p>
+            Congratulations, detective! You have been tasked with the most important case in all of Chandni Chowk - the mystery of the missing spice merchant! Here are the rules:
+
+            You must use all of your detective skills to explore the different locations on the map and collect clues that will help you solve the case. But beware, not everyone is who they seem to be!
+
+            Keep your eyes peeled for hidden clues, riddles, and puzzles. They might seem silly, but they could hold the key to cracking the case!
+
+            Don't be afraid to ask for help. The people of Chandni Chowk are friendly and willing to lend a hand, but they might need a little nudge in the right direction.
+
+            Stay sharp and keep your wits about you. The rival merchant is up to something, and he'll do anything to keep you from uncovering his dark secrets!
+
+            So, are you ready to solve the mystery and become the greatest detective in all of Chandni Chowk?
+
+        </p>
         <button onclick="mystery_1()">Let the quest begin!</button>
 
         <div id="mystery-1" class="mystery hidden">
             <h2>Mission #1</h2>
-            <p>Welcome, detective! ...</p>
+            <p>
+                Welcome, detective! Your first mission is to visit the spice merchant's shop in Chandni Chowk and look for a note that might have some clues about the missing spice merchant. But beware, this shop is a bit of a puzzle itself!
+
+                To uncover the note's content, you'll need to solve a little puzzle. 
+
+                Scan the image or go to - http://bit.ly/chandni-chowk-puzzle
+
+                Once you've uncovered the answer, type in below.
+
+                Good luck, detective! The fate of the spice merchant rests in your hands.
+
+            </p>
             <input id="answer-1" type="text" placeholder="What did the note reveal?" />
             <button onclick="checkAnswer(1)">Am I correct?</button>
         </div>
-      
-        
+
         <div id="mystery-2" class="mystery hidden">
-            <h2>Mission #1</h2>
-            <p>Welcome, detective! ...</p>
-            <input id="answer-2" type="text" placeholder="What did the note reveal?" />
-            <button onclick="checkAnswer(2)">Am I correct?</button>
-        </div>
-      
-      
-        <div id="mystery-3" class="mystery hidden">
-            <h2>Mission #1</h2>
-            <p>Welcome, detective! ...</p>
-            <input id="answer-3" type="text" placeholder="What did the note reveal?" />
-            <button onclick="checkAnswer(3)">Am I correct?</button>
-        </div>
-      
-      
-        <div id="mystery-4" class="mystery hidden">
-            <h2>Mission #1</h2>
-            <p>Welcome, detective! ...</p>
-            <input id="answer-4" type="text" placeholder="What did the note reveal?" />
-            <button onclick="checkAnswer(4)">Am I correct?</button>
+            <h2>Mission #2</h2>
+            <p>
+                As you explore the Red Fort, you notice a faint aroma wafting through the air. It's a delicious smell that reminds you of something familiar, something you've tasted before. You follow the scent to a hidden corner of the fort, where you find a piece of paper with a recipe written on it.
+
+                The recipe is for a popular street food that's famous in Old Delhi. It's a type of stuffed bread that's fried to crispy perfection and served with chutney and pickles. The recipe calls for flour, spices, and a filling made from vegetables, paneer, or meat.
+
+                As you read the recipe, you notice that some of the ingredients are written in a different colour or font. When you write them down, they spell out a secret message:
+
+                "Find me in the narrow alley, where paranthas are the star,
+                And spices fill the air with a fragrance that travels far."
+
+                Where should you to go to find next clue?
+
+            </p>
+            <input id="answer-2" type="text" placeholder="Where should you go to find the next clue?" />
+            <button onclick="checkAnswer(2)">Am I on the right path?</button>
         </div>
 
-        <!-- Add similar divs for mystery-2, mystery-3, and mystery-4 -->
+        <div id="mystery-3" class="mystery hidden">
+            <h2>Mission #3</h2>
+            <p>
+                Welcome to level three of the mystery of the missing spice merchant! You've made it to Paranthe Wali Gali, the famous food street, in search of your next clue. But be warned, this one is a little tricky.
+
+                Hidden inside one of the plates of delicious parathas is a note that will lead you closer to solving the mystery. But which plate is it? You'll have to use your detective skills to figure it out.
+
+                Don't be fooled by the mouth-watering aroma of the parathas - keep your eyes peeled!
+
+                Good luck, detective. The fate of the missing spice merchant rests in your hands.
+
+            </p>
+            <input id="answer-3" type="text" placeholder="What did the hidden note say?" />
+            <button onclick="checkAnswer(3)">Where are we heading to?</button>
+        </div>
+
+        <div id="mystery-4" class="mystery hidden">
+            <h2>Mission #4</h2>
+            <p>
+                Ahoy, detective! This is it, the final piece of the puzzle. 
+
+                The rival merchant's shop is where the missing spice merchant's trail went cold. But we suspect foul play! We have reason to believe that something valuable was stolen from the spice merchant's shop and taken to the rival's den. 
+
+                Your task is to infiltrate the rival's shop, snoop around and look for any evidence of theft. 
+
+                Keep your eyes peeled for anything out of place, and don't forget to evaluate thoroughly! 
+
+                Good luck, detective, and may the spices be with you!
+
+            </p>
+            <input id="answer-4" type="text" placeholder="What was stolen?" />
+            <button onclick="checkAnswer(4)">Did I help the merchant?</button>
+        </div>
 
         <div id="final" class="mystery hidden">
             <h2>The Mystery of the Missing Spice Merchant</h2>
-            <p>📣 Attention detectives! ...</p>
+            <p>
+                📣 Attention detectives! 🕵️‍♀️🕵️‍♂️ The mystery of the missing spice merchant has been solved! 🔍 Thanks to your amazing detective skills, the thief has been caught and the stolen red spice mix has been recovered! 🌶️🔥
+
+                👏👏👏 As a reward for your hard work, the spice merchant would like to offer you a special gift! 🎁 You have been invited to enjoy a fun and exciting Chandni Chowk game, where you can explore the beautiful city and all of its amazing sights! 🌇
+
+                🎉🎉🎉 Congratulations on a job well done, detectives! Enjoy your adventure in Chandni Chowk! 🚶‍♀️🚶‍♂️
+
+            </p>
             <a href="http://www.walkmanlab.com/chandni-chowk">Chandni Chowk Special Game</a>
         </div>
     </div>
@@ -55,3 +113,4 @@
     <script src="scripts.js"></script>
 </body>
 </html>
+
