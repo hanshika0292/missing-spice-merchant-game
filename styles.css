@@ -20,6 +20,7 @@ body {
 }
 header {
     position: sticky;
+    text-align: center;
     top: 0;
     background-color: #E5C88A;
     z-index: 100;
