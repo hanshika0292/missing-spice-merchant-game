@@ -13,10 +13,19 @@
     </header>
     <main>
         <nav>
-            <button aria-controls="mystery-1" onclick="mystery_1()">Restart the Quest</button>
+            <button aria-controls="start" onclick="mystery_1()">Restart the Quest</button>
         </nav>
         <section class="container">
-
+            <!-- Start of the modal -->
+            <div id="modal" class="modal hidden">
+                <div class="modal-content">
+                    <h3>Modal Title</h3>
+                    <p>Modal description...</p>
+                    <button onclick="closeModal()">Close</button>
+                </div>
+            </div>
+            <!-- End of the modal -->
+            
             <article id="start" class="mystery hidden">
             <p>
                 Congratulations, detective! You have been tasked with the most important case in all of Chandni Chowk - the mystery of the missing spice merchant!         
