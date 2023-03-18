@@ -32,6 +32,22 @@ p {
     text-align: justify;
 }
 
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f05f40;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #c04d31;
+}
+
+
 button {
     background-color: #9A3A1C;
     color: #E5C88A;
