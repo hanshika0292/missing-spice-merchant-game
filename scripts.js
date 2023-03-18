@@ -88,3 +88,8 @@ function mystery_1() {
   mystery1.classList.remove("hidden");
 }
 
+function scrollToTop(element) {
+  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+
