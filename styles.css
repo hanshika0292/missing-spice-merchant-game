@@ -1,73 +1,57 @@
 body {
-    font-family: 'Shrikhand', cursive, sans-serif;
-    text-align: center;
-    background-color: #ffebcd;
-    color: #4b0082;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Shrikhand', cursive;
+    background-color: #F7DFA5;
+    color: #AD2E1C;
+    line-height: 1.6;
+    padding: 20px;
 }
 
 .container {
     max-width: 800px;
-    width: 90%;
-    padding: 20px;
-    background-color: #fff5ee;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 3px solid #cd853f;
-    overflow: auto;
-    max-height: 90%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+button {
+    background-color: #AD2E1C;
+    color: #F7DFA5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8B2219;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .mystery {
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .hidden {
     display: none;
-}
-
-input {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-family: Arial, sans-serif;
-    color: #000;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #4b0082;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 1em;
-}
-
-button:hover {
-    background-color: #9370db;
-}
-
-a {
-    color: #4b0082;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
