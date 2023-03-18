@@ -55,3 +55,12 @@ input {
 .hidden {
     display: none;
 }
+
+.section-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
