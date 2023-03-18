@@ -9,7 +9,17 @@ function checkAnswer(index) {
     const answerInput = document.getElementById(`answer-${index}`);
     const answer = answerInput.value.trim().toLowerCase();
 
-    if (answer === correctAnswers[index - 1]) {
+    const correctWords = correctAnswers[index - 1].split(' ');
+    let partialMatch = false;
+
+    for (let i = 0; i < correctWords.length; i++) {
+        if (answer.includes(correctWords[i])) {
+            partialMatch = true;
+            break;
+        }
+    }
+
+    if (partialMatch) {
         const currentMystery = document.getElementById(`mystery-${index}`);
         currentMystery.classList.add("hidden");
 
