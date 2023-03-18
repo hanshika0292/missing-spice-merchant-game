@@ -81,10 +81,10 @@ function restartQuest() {
 
 
 function mystery_1() {
-  const intro = document.querySelector("p");
-  const startButton = document.querySelector("button");
-  intro.classList.add("hidden");
-  startButton.classList.add("hidden");
+  const start = document.getElementById("start");
+  start.classList.add("hidden");
+
   const mystery1 = document.getElementById("mystery-1");
   mystery1.classList.remove("hidden");
 }
+
