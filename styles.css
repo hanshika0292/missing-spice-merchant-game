@@ -18,10 +18,14 @@ body {
     padding: 20px;
     box-sizing: border-box;
 }
-
 header {
-    position: relative;
+    position: sticky;
+    top: 0;
+    background-color: #E5C88A;
+    z-index: 100;
+    padding: 20px 0;
 }
+
 
 nav {
     position: absolute;
