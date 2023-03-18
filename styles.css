@@ -21,7 +21,31 @@ body {
 
 header {
     text-align: center;
+    position: relative;
 }
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav button {
+    background-color: #9a3a1c;
+    color: #e5c88a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+nav button:hover {
+    background-color: #7a2e18;
+}
+
 
 h1 {
     font-size: 2.25rem;
@@ -51,11 +75,6 @@ p {
 
 .button:hover {
     background-color: #c04d31;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
 }
 
 button {
