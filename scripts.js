@@ -91,7 +91,10 @@ function mystery_1() {
 }
 
 function scrollToTop(element) {
-  element.scrollIntoView({ behavior: 'smooth', block: 'header' });
+  const yOffset = -10; // Adjust this value to change the offset from the top
+  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  window.scrollTo({ top: y, behavior: 'smooth' });
 }
+
 
 
