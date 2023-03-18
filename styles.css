@@ -6,15 +6,21 @@ body {
     color: #9A3A1C;
     line-height: 1.6;
     padding: 20px;
+    margin: 0;
 }
 
 .container {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     max-width: 800px;
-    text-align: center;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
+}
+
+header {
+    text-align: center;
 }
 
 h1 {
@@ -47,6 +53,10 @@ p {
     background-color: #c04d31;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
 
 button {
     background-color: #9A3A1C;
@@ -83,4 +93,23 @@ input {
     height: auto;
     margin: 20px auto;
     display: block;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }
