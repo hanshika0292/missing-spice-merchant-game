@@ -57,9 +57,11 @@ function checkAnswer(index) {
     if (index === correctAnswers.length) {
       const final = document.getElementById("final");
       final.classList.remove("hidden");
+      scrollToTop(final);
     } else {
       const nextMystery = document.getElementById(`mystery-${index + 1}`);
       nextMystery.classList.remove("hidden");
+      scrollToTop(nextMystery);
     }
   } else {
     alert(`Try again!\nHint: ${getRandomHint(index)}`);
