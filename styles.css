@@ -14,21 +14,11 @@ body {
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
     background-image: url('photo-1660734430854-6e5f1c50788c.jpeg');
     background-size: cover;
 /*     background-position: center; */
     background-repeat: no-repeat;
-}
-
-.container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
-    z-index: -1;
 }
 
 
