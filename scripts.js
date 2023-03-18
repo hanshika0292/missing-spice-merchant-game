@@ -15,6 +15,7 @@ const wrongAnswerHints = [
 function showModal(index, answer) {
   const modal = document.createElement("div");
   modal.className = "modal";
+  modal.dataset.mysteryIndex = index;
   modal.innerHTML = `
     <div class="modal-content">
       <h3>Congratulations!</h3>
@@ -25,10 +26,19 @@ function showModal(index, answer) {
   document.body.appendChild(modal);
 }
 
+
 function closeModal() {
   const modal = document.querySelector(".modal");
+  const currentMysteryIndex = parseInt(modal.dataset.mysteryIndex, 10);
   document.body.removeChild(modal);
+
+  if (currentMysteryIndex < correctAnswers.length) {
+    document.getElementById(`mystery-${currentMysteryIndex + 1}`).scrollIntoView({ behavior: 'smooth' });
+  } else {
+    document.getElementById("final").scrollIntoView({ behavior: 'smooth' });
+  }
 }
+
 
 function getRandomHint(index) {
   const hints = wrongAnswerHints[index - 1].split(";");
@@ -88,6 +98,7 @@ function mystery_1() {
 
   const mystery1 = document.getElementById("mystery-1");
   mystery1.classList.remove("hidden");
+  document.getElementById("mystery-1").scrollIntoView({ behavior: 'smooth' });
 }
 
 function scrollToTop(element) {
