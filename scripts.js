@@ -57,11 +57,11 @@ function checkAnswer(index) {
     if (index === correctAnswers.length) {
       const final = document.getElementById("final");
       final.classList.remove("hidden");
-      scrollToTop(final);
+      document.getElementById("final").scrollIntoView({ behavior: 'smooth' });
     } else {
       const nextMystery = document.getElementById(`mystery-${index + 1}`);
       nextMystery.classList.remove("hidden");
-      scrollToTop(nextMystery);
+      document.getElementById(`mystery-${index + 1}`).scrollIntoView({ behavior: 'smooth' });
     }
   } else {
     alert(`Try again!\nHint: ${getRandomHint(index)}`);
