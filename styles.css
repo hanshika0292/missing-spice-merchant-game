@@ -18,6 +18,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
 }
+
 header {
     position: sticky;
     text-align: center;
@@ -25,29 +26,11 @@ header {
     background-color: #E5C88A;
     z-index: 100;
     padding: 20px 0;
+    border-bottom: 2px solid #9A3A1C; /* This will add the underline */
 }
-
 
 nav {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav button {
-    background-color: #9a3a1c;
-    color: #e5c88a;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-nav button:hover {
-    background-color: #7a2e18;
+    display: inline-block; /* Add this line to center the navigation inside the header */
 }
 
 
