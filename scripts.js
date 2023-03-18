@@ -91,7 +91,7 @@ function mystery_1() {
 }
 
 function scrollToTop(element) {
-  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  element.scrollIntoView({ behavior: 'smooth', block: 'header' });
 }
 
 
