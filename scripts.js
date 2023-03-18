@@ -66,6 +66,20 @@ function checkAnswer(index) {
   }
 }
 
+function restartQuest() {
+    const mysteries = document.querySelectorAll('.mystery');
+    mysteries.forEach((mystery) => {
+        mystery.classList.add('hidden');
+    });
+
+    const final = document.getElementById('final');
+    final.classList.add('hidden');
+
+    const start = document.getElementById('start');
+    start.classList.remove('hidden');
+}
+
+
 function mystery_1() {
   const intro = document.querySelector("p");
   const startButton = document.querySelector("button");
