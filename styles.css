@@ -4,113 +4,114 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #E5C88A;
-    color: #9A3A1C;
-    line-height: 1.6;
-    padding: 20px;
-    margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fce5cd;
+  color: #4b2c20;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fdfd96;
+  border: 3px solid #4b2c20;
+  border-radius: 10px;
 }
 
 header {
-    position: sticky;
-    text-align: center;
-    top: 0;
-    background-color: #E5C88A;
-    z-index: 100;
-    padding: 20px 0;
-    border-bottom: 2px solid #9A3A1C; /* This will add the underline */
+  position: sticky;
+  text-align: center;
+  top: 0;
+  background-color: #fce5cd;
+  z-index: 100;
+  padding: 10px 0;
+  border-bottom: 2px solid #4b2c20;
 }
 
 nav {
-    display: inline-block; /* Add this line to center the navigation inside the header */
+  display: inline-block;
 }
 
-
 h1 {
-    font-size: 2.25rem;
-    margin-bottom: 30px;
+  font-size: 2.25rem;
+  margin-bottom: 30px;
 }
 
 h2 {
-    font-size: 1.75rem;
-    margin-bottom: 20px;
+  font-size: 1.75rem;
+  margin-bottom: 20px;
 }
 
 p {
-    font-size: 1.2rem;
-    text-align: justify;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #f05f40;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4b2c20;
+  color: #fdfd96;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #c04d31;
+  background-color: #3a2215;
 }
 
 button {
-    background-color: #9A3A1C;
-    color: #E5C88A;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    margin-top: 20px;
-    cursor: pointer;
+  background-color: #4b2c20;
+  color: #fce5cd;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
-    background-color: #7A2E18;
+  background-color: #3a2215;
 }
 
 input {
-    font-size: 1.2rem;
-    padding: 5px 10px;
-    width: 100%;
-    margin-top: 20px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .mystery {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .section-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin: 20px auto;
-    display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
 
 footer {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
-
 
 .modal {
   position: fixed;
@@ -126,24 +127,26 @@ footer {
 }
 
 .modal-content {
-  background-color: #fff;
+  background-color: #fdfd96;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
+  border: 2px solid #4b2c20;
 }
 
 .modal-content button {
-  background-color: #9a3a1c;
-  color: #e5c88a;
+  background-color: #4b2c20;
+  color: #fce5cd;
   border: none;
   padding: 10px 20px;
   font-size: 1.2rem;
   cursor: pointer;
   margin-top: 20px;
+  border-radius: 5px;
 }
 
 .modal-content button:hover {
-  background-color: #7a2e18;
+  background-color: #3a2215;
 }
 
 .modal-content h3 {
@@ -214,17 +217,16 @@ footer {
   }
 }
 
-
 @media screen and (max-width: 768px) {
-    h1 {
-        font-size: 1.75rem;
-    }
+  h1 {
+    font-size: 1.75rem;
+  }
 
-    h2 {
-        font-size: 1.5rem;
-    }
+  h2 {
+    font-size: 1.5rem;
+  }
 
-    p {
-        font-size: 1rem;
-    }
+  p {
+    font-size: 1rem;
+  }
 }
