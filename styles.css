@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
     background-image: url('photo-1660734430854-6e5f1c50788c.jpeg');
     background-size: cover;
-    background-position: center;
+/*     background-position: center; */
     background-repeat: no-repeat;
 }
 
