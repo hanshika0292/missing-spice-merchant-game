@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #fce5cd;
+  background-color: #f8fc73;
   color: #4b2c20;
   line-height: 1.6;
   padding: 20px;
@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #fdfd96;
+  background-color: #b1e1d3;
   border: 3px solid #4b2c20;
   border-radius: 10px;
 }
@@ -30,7 +30,7 @@ header {
   position: sticky;
   text-align: center;
   top: 0;
-  background-color: #fce5cd;
+  background-color: #f8fc73;
   z-index: 100;
   padding: 10px 0;
   border-bottom: 2px solid #4b2c20;
@@ -58,8 +58,8 @@ p {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4b2c20;
-  color: #fdfd96;
+  background-color: #96dbe9;
+  color: #4b2c20;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -67,12 +67,12 @@ p {
 }
 
 .button:hover {
-  background-color: #3a2215;
+  background-color: #70d5ff;
 }
 
 button {
-  background-color: #4b2c20;
-  color: #fce5cd;
+  background-color: #96dbe9;
+  color: #4b2c20;
   border: none;
   padding: 10px 20px;
   font-size: 1.2rem;
@@ -82,7 +82,7 @@ button {
 }
 
 button:hover {
-  background-color: #3a2215;
+  background-color: #70d5ff;
 }
 
 input {
@@ -127,7 +127,7 @@ footer {
 }
 
 .modal-content {
-  background-color: #fdfd96;
+  background-color: #c7e8bd;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
@@ -135,8 +135,8 @@ footer {
 }
 
 .modal-content button {
-  background-color: #4b2c20;
-  color: #fce5cd;
+  background-color: #96dbe9;
+  color: #4b2c20;
   border: none;
   padding: 10px 20px;
   font-size: 1.2rem;
@@ -146,7 +146,7 @@ footer {
 }
 
 .modal-content button:hover {
-  background-color: #3a2215;
+  background-color: #70d5ff;
 }
 
 .modal-content h3 {
